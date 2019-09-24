@@ -3,3 +3,18 @@
 .terceira-section {
     height: 400px;
 }
+
+.cores{
+    background: radial-gradient(red, blue, violet)
+}
+.vermelha{
+    background: red;
+}
+.azul{
+    background: blue;
+   
+}
+
+.verde{
+    background: green;
+}
