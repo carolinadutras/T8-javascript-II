@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(236, 221, 243);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+
+}
+
+
+
+.class{
+    background-color: palevioletred;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
