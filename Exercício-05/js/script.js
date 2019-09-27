@@ -54,25 +54,22 @@ botaoJaLi.classList.add('botao-lido');
 
  
 botaoJaLi.addEventListener('click', function(evento)
-
+ /// criando um toggle
      { if( titulo.classList.contains('livro__titulo--lido')){
-        titulo.classList.remove('livro__titulo--lido')
-        botaoJaLi.classList.remove('botao-nao-li')
-        botaoJaLi.classList.add('botao-lido')
+        titulo.classList.remove('livro__titulo--lido');
+        botaoJaLi.classList.remove('botao-nao-li');
+        botaoJaLi.classList.add('botao-lido');
         botaoJaLi.textContent = 'Marcar como lido';
 
      } else {
         titulo.classList.add('livro__titulo--lido');
-        botaoJaLi.classList.add('botao-nao-li')        
-         botaoJaLi.textContent = 'Marcar como não li'
+        botaoJaLi.classList.add('botao-nao-li');        
+        botaoJaLi.textContent = 'Marcar como não lido';
 
      }
      })
     
     }
-
-
-
 
 
 
@@ -84,6 +81,9 @@ botaoJaLi.addEventListener('click', function(evento)
 //     titulo.classList.add('livro__titulo--lido');
 // };
 // })
+
+
+//outra forma sem o if- a primeira maneira que fiz- botões separados
 
 
 // botaoDesfazer.addEventListener('click', function(evento)
