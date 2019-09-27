@@ -70,7 +70,7 @@ const eu = {
 
 ///para postar o link
 // for (let propriedade in eu) {   
-//    if (eu['propriedade']=== 'site'){
+//    if (eu[propriedade]=== 'site'){
 //        document.createElement('a')
 //    }
 // }
